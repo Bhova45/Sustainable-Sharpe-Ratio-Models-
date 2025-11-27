@@ -31,8 +31,6 @@ $$SSR = \frac{E[R_p - R_f]}{\sigma_{p, adj}}$$
 
 *Where $\sigma_{p, adj}$ is the **adjusted portfolio volatility**, which is penalized or weighted based on the portfolio's aggregate ESG score.*
 
-    ```
-
 ## 📊 Key Findings
 
 * **Trade-off Observation:** The analysis demonstrates a tangible trade-off where portfolios optimized for a higher SSR often exhibit lower conventional volatility but may differ significantly from portfolios optimized purely for the maximum standard SR.
