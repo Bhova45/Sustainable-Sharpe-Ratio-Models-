@@ -2,10 +2,16 @@
 
 ## Round 1
 
-### Repo structure
+### Insights
+- It's unclear to me why you do simulations - an explainer would be good.
+- You did a lot of analysis but I didn't see any of your thoughts in the notebook so it's difficult for me to understand what did you got from this analysis. I have a hard time seeing how the Key Findings are connected to what you did in the notebook.
 
+### Repo structure
 - Where are the data sources?
-- Would separate the notebook into multiple notebooks. Would also use more code cells - I see you lump a lot of code together when really you want to check code at every step of the way. I point out an example in the notebook feedback.
+
+### Notebook extra comments
+- Please separate the notebook into more notebooks, it's quite difficult to follow - you could make 5 notebooks at least out of what you have in there.
+- Would also use more code cells - I see you lump a lot of code together when really you want to check code at every step of the way. I point out an example in the notebook feedback.
 - Please reorganize your notebooks instead of using `globals()`. There are times where you might need to use this, but incredibly rarely, when there is no other way to do things. In your case, you are using it to make sure you ran some cells, which I understand - but you could save your data into a `.csv` files and read them at the top of the notebook and you don't need to this again.
 
 ### README
@@ -22,6 +28,8 @@
 
 - Key Findings
     - Move this at the top, after overview
+    - This needs to have some charts to showcase your findings. 
+    - Are these the real findings? I don't see how you get those sentences from the notebook... Need to make that pathway much clearer, from chart to insight.
 
 - Methodology Highlights
     - would rename to just "Methodology"
